@@ -1,0 +1,15 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "dist"],
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "target": "esnext",
+    "module": "esnext",
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution":"Node",
+  },
+  "outDir": "dist",
+}
